@@ -1,5 +1,5 @@
 # Landing Page para uma caferetia fictícia, realizado no curso da Alura
-(!Uma foto da tela inicial do site[Screenshot_1](https://github.com/user-attachments/assets/6e6a34d8-3eb4-45ea-bc42-8b47e0242a4f)
+![Foto da tela inicial do site](https://github.com/user-attachments/assets/45e68c0d-fb7a-47bd-b50e-7f9d0f1fa9cc)
 
 ## Ferramentas utilizadas:
 
