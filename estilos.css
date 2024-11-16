@@ -1,0 +1,81 @@
+:root {
+  --bege: #E6E0D6;
+  --marrom-escuro: #816D4F;
+  --marrom-claro: #B29463;
+  --fonte: "Barlow", sans-serif;
+}
+
+body {
+  font-family: var(--fonte);
+}
+
+.botao-padrao {
+  background-color: var(--marrom-claro);
+  color: black;
+}
+
+.botao-padrao:hover{
+  background-color: var(--marrom-escuro);
+}
+
+input[type=checkbox]:checked {
+  background-color: var(--marrom-claro);
+  border: 2px solid var(--marrom-claro);
+  border-color: var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
+}
+
+input[type="checkbox"]:focus {
+  border-color: var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
+}
+
+.banner-1{
+  /* a img aparece depois de definido tamanho e altura */
+  background-image: url(./assets/banner-1.png);
+}
+
+.banner-2{
+  background-image: url(./assets/banner-2.png);
+}
+
+.banner-3{
+  background-image: url(./assets/banner-3.png);
+}
+
+.banners {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  /* para a imagem ocupar todo o espaço reservado para ela */
+  background-size: cover;
+  background-position: center;
+  /* para a imagem ficar fixa na tela (efeito parallax) */
+  background-attachment: fixed;
+}
+
+.banners-titulo{
+  /* variável do bootstrap para deixar o fundo translúcido */
+  --bs-bg-opacity: .2;
+}
+
+.input-range::-webkit-slider-thumb{
+  background-color: var(--marrom-claro);
+}
+
+.fundo{
+  background-color: var(--marrom-claro);
+}
+
+[data-bs-theme="dark"]{
+  color:white;
+  .nav-link, .card-body, .offcanvas, .accordion, .btn {
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-body-color: white;
+    --bs-body-color: white;
+  }
+}
